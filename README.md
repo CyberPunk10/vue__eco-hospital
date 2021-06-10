@@ -1,11 +1,7 @@
-# Учебный репозиторий курса по Vue.js
-[ссылка на Youtube](https://www.youtube.com/playlist?list=PL-wEcSTifrSn5cae0gFQ7Gy7v3t6c7hLF)
-
-
 ## Установка и запуск
 1. Скопируй репозиторий себе локально на компьютер:
 ```
-git clone git@gitlab.com:DanilChushko/vue-lessons.git
+git clone https://github.com/CyberPunk10/vue__eco-hospital.git
 ```
 
 2. Перейди в директорию проекта и установи npm пакеты:
@@ -13,13 +9,7 @@ git clone git@gitlab.com:DanilChushko/vue-lessons.git
 npm i
 ```
 
-3. Переключаться между заданиями можно с помощью команды:
-(1 - номер урока, "-hw" - домашнее задание)
-```
-git checkout lesson-1-hw
-```
-
-4. Запусти проект:
+3. Запусти проект:
 ```
 npm run serve
 ```
