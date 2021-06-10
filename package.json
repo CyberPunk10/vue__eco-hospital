@@ -9,9 +9,7 @@
   },
   "dependencies": {
     "axios": "^0.19.2",
-    "cookie": "^0.4.1",
     "core-js": "^3.6.4",
-    "js-cookie": "^2.2.1",
     "marked": "^1.1.0",
     "vue": "^2.6.11",
     "vue-js-modal": "^2.0.0-rc.6",

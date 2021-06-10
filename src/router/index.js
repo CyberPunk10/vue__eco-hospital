@@ -6,7 +6,6 @@ import FilmPage from '../pages/FilmPage'
 import AllDocumentsPage from '../pages/AllDocumentsPage.vue'
 import NotFound from '../pages/404'
 import FilmsLayout from '../pages/FilmsLayout'
-import DocumentsLayout from '../pages/DocumentsLayout'
 
 export default new VueRouter({
   mode: 'history',
@@ -18,7 +17,7 @@ export default new VueRouter({
     },
     {
       path: '/films',
-      name: 'filmsLayout',
+      // name: 'filmsLayout',
       component: FilmsLayout,
       children: [
         {
@@ -46,8 +45,8 @@ export default new VueRouter({
     },
     {
       path: '/ecohospital',
-      name: 'documentsLayout',
-      component: DocumentsLayout,
+      // name: 'FilmsLayout',
+      component: FilmsLayout,
       children: [
         {
           path: '',
